@@ -1,0 +1,28 @@
+bold, italics, underline, strike
+overline
+size
+text color
+highlight color
+typeface
+opacity
+text-transform (case changes)
+letter spacing
+
+font-variant: small-caps
+
+white-space: nowrap
+
+fixed position elements
+
+borders
+
+expanding/hidden
+
+html comments
+
+play sounds
+
+hidden links (as plain text)
+
+click
+hover
