@@ -21,4 +21,4 @@ a.hidden {
     cursor: text;
 }
 
-
+[contenteditable] {outline: 0px solid transparent;}
