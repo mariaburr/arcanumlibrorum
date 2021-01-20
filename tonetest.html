@@ -1,16 +1,17 @@
 <!DOCTYPE html>
  <html>
    <head>
-<meta charset="utf‐8">
-<title> Hello web audio </title> </head>
-<body>
-   </body>
+<title> Hello web audio </title> 
    <script>
    var audioCtx = new (window.AudioContext || window.webkitAudioContext);
    var sine = audioCtx.createOscillator();
-   sine.start();
    sine.connect(audioCtx.destination);
-
- 
    </script>
+   </head>
+<body>
+<pre>
+<span onclick="sine.start()">start</span>
+<span onclick="sine.stop()">stop</span>
+</pre>
+   </body>
 </html>
