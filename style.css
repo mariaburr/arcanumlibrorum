@@ -1,12 +1,53 @@
-* {white-space: pre;}
+body {
+    font-size: 2em;
+    font-family: "Courier New", monospace;
+    white-space: pre; 
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+@-moz-document url-prefix() {
+    html{
+        scrollbar-width: none;
+    }
+}
+body::-webkit-scrollbar {
+    display: none;
+}
 
-body {font-size: 2em;}
+.small {
+    font-variant: small-caps;
+}
+
+/* palimpsest */
+.palimp-bottom { 
+    position:absolute; 
+    opacity:.2; 
+    z-index:1; 
+}
+.palimp-top { 
+    z-index:2; 
+}
+
+
+/* draggable text style */
+.drag {
+    position: absolute; 
+    display: inline;
+} 
 
 /* click expansion */
-div.exp {display: inline;}
-input[type=checkbox] {display: none;}
-.click-expand {display: none;}
-.click-expandable:checked ~ .click-expand {display: inline;}
+div.exp {
+    display: inline;
+}
+input[type=checkbox] {
+    display: none;
+}
+.click-expand {
+    display: none;
+}
+.click-expandable:checked ~ .click-expand {
+    display: inline;
+}
 /* Not just click expand: make general click and hover changes */
 
 
