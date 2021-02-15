@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
+    <script>
+        function editText() {
+            var text = document.body.innerText;
+            var code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z";
+            if (text.indexOf(code) > -1) {
+                document.body.contentEditable = "false";
+                document.getElementById("x").classList.remove("hidden");
+              } 
+        }
+    </script>
 </head>
-<body contenteditable="true">
-A B C D E F G H I K <a class="hidden" href="aconnectionoropeningbetweenthings.html">L</a> M N O P Q R S T V X Y Z & ⁊ Ƿ Þ Ð Æ
+<body contenteditable="true" oninput="editText()">A B C D E F G H I K <a id="x" class="hidden" href="aconnectionoropeningbetweenthings.html">L</a> M N O P Q R S T V X Y Z & ⁊ Ƿ Þ Ð Æ
 S O O O T OOO O O O I     E R I E   H     O         G O T
 H R N   H   R   N   G   P A I N I L O  N  G  F  O R   N   A B C D E F G H I K L M N O P Q R S T V X Y Z & ⁊ Ƿ Þ Ð Æ
   R T       AGE     A     R V   N   R     H O U R C   E     y                   u         e
@@ -71,5 +82,9 @@ U N K N O W N G                                                                 
                                                           G 
 
                                                           S
+
+
+
+
 </body>
 </html>
