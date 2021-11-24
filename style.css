@@ -6,6 +6,9 @@ body {
     scrollbar-width: none;
     margin-left: .5em;
 }
+.prose {
+    white-space: normal;
+}
 @-moz-document url-prefix() {
     html{
         scrollbar-width: none;
@@ -66,4 +69,3 @@ a.hidden {
 [contenteditable] {outline: 0px solid transparent;}
 
 /* prose */
-.prose {display: none}
