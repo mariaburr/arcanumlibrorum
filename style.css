@@ -4,6 +4,7 @@ body {
     white-space: pre; 
     -ms-overflow-style: none; 
     scrollbar-width: none;
+    margin-left: .5em;
 }
 @-moz-document url-prefix() {
     html{
