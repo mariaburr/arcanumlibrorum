@@ -64,3 +64,6 @@ a.hidden {
 }
 
 [contenteditable] {outline: 0px solid transparent;}
+
+/* prose */
+.prose {display: none}
