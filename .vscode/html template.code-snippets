@@ -1,6 +1,5 @@
 {
 	"html template":{
-		"scope": "html",
 		"prefix": "html",
 		"body": [
 			"<!DOCTYPE html>",
