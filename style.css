@@ -61,8 +61,8 @@ input[type=checkbox] {
 
 /* links disguised as plain text */
 a.hidden {
-    color: black;
-    text-decoration: none;
+/*    color: black;
+    text-decoration: none; */
     cursor: text;
 }
 
