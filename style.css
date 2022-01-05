@@ -66,6 +66,11 @@ a.hidden {
     cursor: text;
 }
 
+/* white text */
+span.white {
+    color: white;
+}
+
 [contenteditable] {outline: 0px solid transparent;}
 
 /* prose */
