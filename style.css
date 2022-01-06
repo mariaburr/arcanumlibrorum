@@ -22,6 +22,16 @@ body::-webkit-scrollbar {
     font-variant: small-caps;
 }
 
+::selection {
+    color: white;
+    background: black;
+}
+
+::-moz-selection {
+    color: white;
+    background: black;
+}
+
 /* palimpsest */
 .palimp-bottom { 
     position:absolute; 
