@@ -18,6 +18,136 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+
+/* page navigation */
+div.south {
+    position:fixed;
+    left: 13%;
+    bottom: 0;
+    height: 5%;
+    width: 74%;
+}
+
+div.sxsouthwest {
+    position:fixed;
+    left:3%;
+    bottom:0;
+    height:5%;
+    width:10%;
+}
+
+div.southwest {
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:5%;
+    width:3%;
+}
+
+div.wxsouthwest {
+    position:fixed;
+    left:0;
+    bottom:5%;
+    height:10%;
+    width:3%;
+}
+
+div.west {
+    position:fixed;
+    left:0;
+    bottom:15%;
+    height:70%;
+    width:3%;
+}
+
+div.wxnorthwest {
+    position:fixed;
+    left:0;
+    top:5%;
+    height:10%;
+    width:3%;
+}
+
+div.northwest {
+    position:fixed;
+    left:0;
+    top:0;
+    height:5%;
+    width:3%;
+}
+
+div.nxnorthwest {
+    position:fixed;
+    left:3%;
+    top:0;
+    height:5%;
+    width:10%;
+}
+
+div.north {
+    position:fixed;
+    left: 13%;
+    top: 0;
+    height: 5%;
+    width: 74%;
+}
+
+div.nxnortheast {
+    position:fixed;
+    right:3%;
+    top:0;
+    height:5%;
+    width:10%;
+}
+
+div.northeast {
+    position:fixed;
+    right:0;
+    top:0;
+    height:5%;
+    width:3%;
+}
+
+div.exnortheast {
+    position:fixed;
+    right:0;
+    top:5%;
+    height:10%;
+    width:3%;
+}
+
+div.east {
+    position:fixed;
+    right:0;
+    bottom:15%;
+    height:70%;
+    width:3%;
+}
+
+div.exsoutheast {
+    position:fixed;
+    right:0;
+    bottom:5%;
+    height:10%;
+    width:3%;
+}
+
+div.southeast {
+    position:fixed;
+    right:0;
+    bottom:0;
+    height:5%;
+    width:3%;
+}
+
+div.sxsoutheast {
+    position:fixed;
+    right:3%;
+    bottom:0;
+    height:5%;
+    width:10%;
+}
+
 .small {
     font-variant: small-caps;
 }
