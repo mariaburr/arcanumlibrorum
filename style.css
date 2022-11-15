@@ -1,9 +1,11 @@
 body {
     font-size: 2em;
     font-family: "Courier New", monospace;
+    background-color: black;
+    color: white;
     white-space: pre;
-    display: inline-block; 
-    -ms-overflow-style: none; 
+    display: inline-block;
+    -ms-overflow-style: none;
     scrollbar-width: none;
     margin: 5vh 3vw;
 
@@ -19,7 +21,9 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
-
+a {
+	color:white;
+}
 
 /* page navigation */
 div.south {
@@ -155,8 +159,8 @@ div.sxsoutheast {
 }
 
 ::selection {
-    color: white;
-    background-color:black
+    color: black;
+    background-color:white;
 }
 
 
@@ -166,23 +170,23 @@ div.sxsoutheast {
 
 
 /* palimpsest */
-.palimp-bottom { 
-    position:absolute; 
-    opacity:.4; 
-    z-index:0; 
+.palimp-bottom {
+    position:absolute;
+    opacity:.4;
+    z-index:0;
 }
-.palimp-top { 
+.palimp-top {
     position:relative;
-    z-index:1; 
+    z-index:1;
 }
 
 
 /* draggable text style */
 .drag {
-    position: absolute; 
+    position: absolute;
     z-index:2;
     display: inline;
-} 
+}
 
 /* click expansion */
 div.exp {
@@ -206,7 +210,7 @@ input[type=checkbox] {
 
 /* links disguised as plain text */
 a.hidden {
-/*    color: black;
+/*    color: white;
     text-decoration: none; */
     cursor: text;
 }
