@@ -72,11 +72,13 @@ let nxnwCompass = new Compass("nxnwScroll", ".nxnorthwest", -100, -50, -document
 
 
 //draggable text script
+//relate this to: https://www.w3schools.com/tags/att_global_draggable.asp and https://www.w3schools.com/jsref/event_ondragenter.asp, other drag events
 
 draggable = document.querySelectorAll(".drag");
-draggable.forEach(dragElement)
+draggable.forEach(dragElement);
 
 function dragElement(elmnt) {
+  console.log(elmnt);
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   elmnt.onmousedown = dragMouseDown;
   

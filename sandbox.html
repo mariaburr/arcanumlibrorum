@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Inconsolata:wdth@125" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body onclick="select()">
+
+This is the selected text: <span id="selection"></span>
+
+<span style="font-family: 'Roboto Mono', serif;">this is Roboto Mono</span>
+<span style="font-family: 'Inconsolata', serif;">this is Inconsolata </span>
+
+<span title="hidden message">This text has a hover message</span>
+
+This text has a footnote.<sup><a href="#fn1" name="rn1">1</a></sup>
+
+<span class="hover-expandable">Testing hover expand:</span> <span class="hover-expand">success!</span>
+
+<input type="checkbox" id="c1" class="click-expandable"><label for="c1">Testing click expand:</label> <span class="click-expand">success!</span>
+
+<span class="drag" style="background-color:white;opacity:1;">This text is draggable</span>This text is hidden
+
+<span contenteditable="true">This text is editable</span>
+
+<span class="palimp-bottom">This has been written over</span><span class="palimp-top">This is a palimpsest</span>
+
+<span style="cursor: help">This text has a help cursor</span>
+
+<span style="cursor: none">This text has no cursor</span>
+
+<span style="cursor: url('https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/crosshair.gif'), text">This text has a custom cursor</span>
+
+<span class="blackout">This text blacks out when highlighted</span>
+
+<a href="#rn1" name="fn1">1.</a> This is the footnote.
+
+</body>
+<script src="scripts.js" type="text/javascript"></script>
+<script>
+function select(){
+    var sel = window.getSelection();
+    var seltext = sel.toString();
+    $("#selection").html(seltext);
+}
+</script>
+</html>
+
+
+<!--
+
+page ideas:
+- all white, text appears and then gradually fades as cursor hovers over it
+- text gradually reveals color as cursor hovers over it
+- Text blacks out when highlighted and then changes when highlight is removed
+
+
+
+A table of contents populated by every page/page section the user visits (from localstorage)
+- Pages and page sections are listed as nested under the page from which they were entered.
+--- Those not entered from another page, or entered from the index, are headers
+- The table of contents is entered by typing "table of contents" in the index
+
+abilities:
+- highlight
+--- temporary
+--- semi-permanent (selecting text)
+- change text color
+- drag
+- change layer
+- expose hidden text
+- edit text
+
+store developments and page changes in localstorage
+
+hidden and/or disabled elements:
+- white text
+- text color (thread)
+- font (author)
+- links
+- layers, draggable elements
+- editable text
+- pop-up notes (titles)
+- footnotes
+- coded text
+- hidden sections (display:none)
+- messages sent to console
+- messages sent to page title
+- text hidden in html messages
+- css animation typing
+- resize text box: css resize
+
+
+clues:
+- semantic context clues
+- syntactical clues
+- coded messages
+- hover clues (highlight, page title or console messages, 'tooltip' popups for element titles)
+--- some clues are revealed gradually, not instantly (css transition)
+- some clues and some changes only become available after certain changes occur
+
+text orientation: css writing mode
+- transform to rotate
+- transition to gradually transform
+
+abilities:
+- detect hidden elements
+--- pointer
+--- select highlight
+--- hover highlight
+--- background color
+--- audio clues
+- change speed of transitions
+
+tasks:
+- insert/edit certain text
+- drag text to reveal other text
+--- drag to a certain location?
+- find hidden elements
+--- some have no hints other than textual, some have clues (pointer, highlight)
+--- finding some makes it easier to find others
+----- finding those without clues are more powerful than those with clues
+
+- audio effects
+
+- pointer color / shape
+--- reveal
+
+- page background color
+--- night mode: reveal white text, hide black text
+--- pages with chaotic mixed text of different colors, filter out parts of the chaos to reveal
+
+- highlight color
+--- by default, highlights don't reveal but are the same color as highlighted text?
+--- highlight by selecting text or hovering over text
+--- abilities: 
+----- reveal white text with black highlight
+----- reveal hidden text color with highlight
+----- reveal link (underline)
+----- reveal font
+
+- layers
+--- palimpsest - transparent layers
+----- reveal layer underneath, bring to front
+--- opaque layer, text hidden under other text
+----- drag text away to reveal hidden text
+
+-->

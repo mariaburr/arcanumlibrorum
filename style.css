@@ -1,10 +1,12 @@
 body {
     font-size: 2em;
     font-family: "Courier New", monospace;
-    white-space: pre; 
+    white-space: pre;
+    display: inline-block; 
     -ms-overflow-style: none; 
     scrollbar-width: none;
-    margin-left: .5em;
+    margin: 5vh 3vw;
+
 }
 .prose {
     white-space: normal;
@@ -154,28 +156,31 @@ div.sxsoutheast {
 
 ::selection {
     color: white;
-    background: black;
+    background-color:black
 }
 
-::-moz-selection {
-    color: white;
-    background: black;
+
+.blackout::selection {
+    color: rgba(0,0,1);
 }
+
 
 /* palimpsest */
 .palimp-bottom { 
     position:absolute; 
-    opacity:.2; 
-    z-index:1; 
+    opacity:.4; 
+    z-index:0; 
 }
 .palimp-top { 
-    z-index:2; 
+    position:relative;
+    z-index:1; 
 }
 
 
 /* draggable text style */
 .drag {
     position: absolute; 
+    z-index:2;
     display: inline;
 } 
 
