@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+        function editText() {
+            var text = document.body.innerText;
+            var code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z";
+            if (text.indexOf(code) > -1) {
+                document.body.contentEditable = "false";
+                document.getElementById("x").classList.remove("hidden");
+              } 
+        }
+    </script>
+</head>
+<body contenteditable="true" oninput="editText()">A B C D E F G H I K <a id="x" class="hidden" href="aconnectionoropeningbetweenthings.html">L</a> M N O P Q R S T V X Y Z & ⁊ Ƿ Þ Ð Æ
+S O O O T OOO O O O I C A E R I E V H I T O I E S O G O T R P A S S A G E S Y C E   S  T  O  C  O  M  E
+H R N   H   R CAN SOGMEUPNADIENRIMLAONYNUNGEXFPEOCRTEDNFORAMBSCTDHEIFNG HTIAKELNM NBOYP QTRHSET VPXAYSZT& ⁊ Ƿ Þ Ð Æ
+BURITLTERSAZAGETTHEBANDDIDRNVOTCNARRRYANYRHEOBUARTCERIETTLEPyLANETNOW   i     R uin e     e
+R O I  N  HETITATSTRT E XPOSAE DTWYNN             L       C r           n       n         f 
+  WYNN      I E H A U     B TAP RN  K   o   f   t O h  e  g hr  a  s  s tl  aeAneid       u
+  I U  S O MOENTEHRIRN G SSCAALNON O T BDE C H A NSGaE D  O t  h  e  y  c  o  u rl  d  b  le  g  r  a  t  e  f  u  l
+I N E U E D H E M L END P OF NO DAYS    OE        E d      of            o    V a   i  e  g                   i
+  G D    N          S A   L VO AURUM    W R       D o     N e p e n t h e m         r  eN o a n c i e n t i n sni g n i f i c a n t d e a d
+  S       T   F          HESUFMFCFAENROENDENWOES  U v     A r           r  p  E s o o tnh                       d
+E V E R Y T HIAN G I S R ETF EAREE NDCUES T I     P e     N ð m a y b e s a i d o   t  i                         f
+ T H E A SREPCLRIAB ECD ITESENNLDF    S     YE E  O r     TTOPROMISEEVEBNLEEDTINrUAGRACCHANLRETURN   M  E         r
+              S  TB O D Y B A D L Y B TU R NATMRO N e G U E S S W O R K s     o d    e n                           i
+              E  athboues andupitt iesf  u  l OEPs  de tnhUety sep ena klacn deeiv e ntshri n k                     e
+      A          Sh e f toe dptrhye bauplakrytNb OoptkarguCbebsi sthick allroa  dsleadlongblack                      n
+U N K N O W N G  O t h a t s t o u f f e t h a t wEehw r yRt t e u p o ni       arietheror                            d
+      D       O  Mt h e y s p e a k a n d e v e n tMehEiXnTkR A L       n         s  F w                               s
+      BURNI   D  E v e r a l w a y s r e m a i n s iEn f iAn i t e      d          e L e               A                f
+          T   IN      e r o r k l b e s i d e s     p  L  I  B  E  R  A tV  I  T  M dA  S  N  A  T  O  S                 i
+F R O M T H E GHRE A T B OOeK O F N A T U R E       a     L           N              T  D  E  L  L  A  C -                l
+               U O   L                 o            g     O     G         S          Ta       T  S  A  L                   e
+               M I     L                t           e     I           O              E v      P  O  E  M
+               A N F O R M               h          s  A  N  N  A     L     S        R  i E
+                 T  H  E  F  A  B  R  I  Ce O  F  T  I  M CE  A  N  D DS  P  A  C  E Y   v    E 
+                       S                   g              O     L     D    S    A    L    V    E 
+                       T                    r                         S                    i  R E
+                       S                     o            R           A                     d   E       
+                                              u           E           L                      nP
+                                               n          O           V                       e
+                                                d         A           E                       Es 
+                                                 o        P                                     s
+                                                  n       S                                   T
+E   V   E   R   Y   M   A   N   M   U   S   T   D  wI   S E C   O   V   E   R   F   O   R   H   I   M   S   E   L   F
+                                                    h                                         U
+                                                     i    N
+                                                      c                                       A
+                                                       h  I 
+                                                        a                                     L
+                                                         lN 
+                                                          l                                   E
+                                                          Gr
+                                                            e                                 A 
+                                                          B  s
+                                                              t                               S
+                                                A S E R I E S OsF A T T E M P T E D E S C A P E S E N D E D S U C C E S S F U L L Y
+
+                                                          T                                   W
+                                                                                              A 
+                                                          W                                   S 
+
+                                                          E 
+                                                                                              G 
+                                                          E 
+                                                                                              R
+                                                          N 
+                                                                                              A 
+                                                          T 
+                                                                                              N
+                                                          H 
+                                                                                              T 
+                                                          I 
+                                                                                              E
+                                                          N 
+                                                                                              D 
+                                                          G 
+
+                                                          S
+
+
+
+
+</body>
+<script src="scripts.js" type="text/javascript"></script>
+</html>
